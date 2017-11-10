@@ -780,7 +780,7 @@ function syntaxHighlight(json) {
 
 function getSubClasses(type) {
     var subClasses = [];
-    if (!sdoClasses.hasOwnProperty(type))
+    if (sdoClasses.hasOwnProperty(type))
         if (sdoClasses[type].hasOwnProperty("subClasses")) {
             subClasses = subClasses.concat(sdoClasses[type]["subClasses"]);
             subClasses.forEach(function (subclass) {
