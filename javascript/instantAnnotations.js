@@ -5,7 +5,7 @@ var sdoPropertiesReady = false;
 var sdoClasses;
 var sdoClassesReady = false;
 var panelId = "IAPanel0";
-var panelCount=0;
+var panelCount = 0;
 
 var panelRoots = [];
 var typeList = [];
@@ -254,7 +254,7 @@ var previewBtn = {
             '</div>' +
             '<div class="modal-body">' +
             '<pre id="preview_textArea" style="max-height: 500px;"></pre>' +
-            '<button class="btn btn-default" id="IA_simple_preview_copy" style="float: right; position:relative;bottom:55px; right:5px "> <i class="material-icons">content_copy</i> Copy</button>'+
+            '<button class="btn btn-default" id="IA_simple_preview_copy" style="float: right; position:relative;bottom:55px; right:5px "> <i class="material-icons">content_copy</i> Copy</button>' +
             '</div>' +
             '<div class="modal-footer">' +
             '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
@@ -316,14 +316,14 @@ function IA_Init() {
                 });
         }
 
-        $(this).children('div').each(function(){
-            if($(this).hasClass('IA_Btn')){
+        $(this).children('div').each(function () {
+            if ($(this).hasClass('IA_Btn')) {
                 var button = {};
                 button["name"] = $(this).data("name");
                 button["icon"] = $(this).data("icon");
                 button["onlyIcon"] = $(this).data("onlyIcon");
                 button["createJsonLD"] = !!$(this).data("createjsonld");
-                button["onclick"] =  window[$(this).data("onclick")];
+                button["onclick"] = window[$(this).data("onclick")];
                 buttons.push(button);
             }
         });
@@ -357,7 +357,7 @@ function IA_Init() {
         }(panelId, $(this), sub));
 
         panelCount++;
-        panelId="IAPanel"+panelCount;
+        panelId = "IAPanel" + panelCount;
 
     });
 
@@ -780,13 +780,13 @@ function syntaxHighlight(json) {
 
 function getSubClasses(type) {
     var subClasses = [];
-    if(!sdoClasses.hasOwnProperty(type))
-    if(sdoClasses[type].hasOwnProperty("subClasses")){
-        subClasses = subClasses.concat(sdoClasses[type]["subClasses"]);
-        subClasses.forEach(function(subclass){
-            subClasses = subClasses.concat(getSubClasses(subclass));
-        });
-    }
+    if (!sdoClasses.hasOwnProperty(type))
+        if (sdoClasses[type].hasOwnProperty("subClasses")) {
+            subClasses = subClasses.concat(sdoClasses[type]["subClasses"]);
+            subClasses.forEach(function (subclass) {
+                subClasses = subClasses.concat(getSubClasses(subclass));
+            });
+        }
     return subClasses;
 }
 
