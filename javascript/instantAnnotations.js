@@ -377,6 +377,32 @@ function getTreeJson() {
     });
 }
 
+function addQuickBox($jqueryElement, buttons,sub, hash){
+    getTreeJson();
+    getClassesJson();
+    var myPanelId=panelId;
+    buttons=[];
+    var buttonsArray = buttons.split("+");
+                buttonsArray.forEach(function (b) {
+                    switch (b) {
+                        case "preview":
+                            buttons.push(previewBtn);
+                            break;
+                        case "clear":
+                            buttons.push(clearBtn);
+                            break;
+                        case "save":
+                            buttons.push(saveBtn);
+                            break;
+                        case "copy":
+                            buttons.push(copyBtn);
+                            break;
+                    }
+    httpGet(semantifyUrl + "/api/domainSpecification/hash/" + dsHash, function (ds) {
+        addBox($jqueryElement,myPanelId,ds,buttons,sub);
+    });
+}
+
 function addBox($jqueryElement, myPanelId, ds, buttons, sub) {
     if (!(sdoPropertiesReady) || !(sdoClassesReady)) {
         setTimeout(function () {
