@@ -377,10 +377,10 @@ function getTreeJson() {
     });
 }
 
-function addQuickBox($jqueryElement, strbuttons,sub, hash){
+function addQuickBox($jqueryElement, strbuttons,sub, hash,panelstr){
     getTreeJson();
     getClassesJson();
-    var myPanelId=panelId;
+    var myPanelId=panelstr;
     var buttons=[];
     var buttonsArray = strbuttons.split("+");
                 buttonsArray.forEach(function (b) {
@@ -399,7 +399,7 @@ function addQuickBox($jqueryElement, strbuttons,sub, hash){
                             break;
                     }
                 });
-    httpGet(semantifyUrl + "/api/domainSpecification/hash/" + dsHash, function (ds) {
+    httpGet(semantifyUrl + "/api/domainSpecification/hash/" + hash, function (ds) {
         addBox($jqueryElement,myPanelId,ds,buttons,sub);
     });
 }
