@@ -398,6 +398,7 @@ function addQuickBox($jqueryElement, buttons,sub, hash){
                             buttons.push(copyBtn);
                             break;
                     }
+                }
     httpGet(semantifyUrl + "/api/domainSpecification/hash/" + dsHash, function (ds) {
         addBox($jqueryElement,myPanelId,ds,buttons,sub);
     });
