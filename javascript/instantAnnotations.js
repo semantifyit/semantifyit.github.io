@@ -377,12 +377,12 @@ function getTreeJson() {
     });
 }
 
-function addQuickBox($jqueryElement, buttons,sub, hash){
+function addQuickBox($jqueryElement, strbuttons,sub, hash){
     getTreeJson();
     getClassesJson();
     var myPanelId=panelId;
     buttons=[];
-    var buttonsArray = buttons.split("+");
+    var buttonsArray = strbuttons.split("+");
                 buttonsArray.forEach(function (b) {
                     switch (b) {
                         case "preview":
