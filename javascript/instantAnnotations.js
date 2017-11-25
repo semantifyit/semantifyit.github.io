@@ -381,7 +381,7 @@ function addQuickBox($jqueryElement, strbuttons,sub, hash){
     getTreeJson();
     getClassesJson();
     var myPanelId=panelId;
-    buttons=[];
+    var buttons=[];
     var buttonsArray = strbuttons.split("+");
                 buttonsArray.forEach(function (b) {
                     switch (b) {
