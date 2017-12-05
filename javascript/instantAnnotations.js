@@ -264,7 +264,11 @@ var previewBtn = {
             '</div>'
         );
         $('#preview_textArea').html(syntaxHighlight(JSON.stringify(resp.jsonLd, null, 2)));
-        $('#previewModal').modal();
+        $('#previewModal')
+            .modal()
+            .on('hidden.bs.modal', function () {
+                $(this).remove();
+            });
         $('#IA_simple_preview_copy').click(function () {
             copyStr(JSON.stringify(resp.jsonLd, null, 2));
         });
