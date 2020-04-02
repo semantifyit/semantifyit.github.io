@@ -122,7 +122,34 @@
          uid:undefined, //your website-uid OPTIONAL
          secret:undefined //your website-secret OPTIONAL
      };
+     let annotation2= {
+        "@context": "http://schema.org/",
+        "@type": "Place",
+        "name": [
+            "1",
+            "2",
+            "3"
+        ],
+        "description": "gh",
+        "address": {
+            "@type": [
+                "PostalAddress",
+                "Offer",
+                "Order"
+            ],
+            "availability": "PreOrder",
+            "orderStatus": "OrderProcessing",
+            "name": [
+                "g1",
+                "g2"
+            ],
+            "identifier": "g"
+        },
+        "identifier": "g"
+    };
 
+    InstantAnnotation.createIABox('divid1', 'vVAnlt2Q7', {withMultValues: true});
+    InstantAnnotation.createIABox('divid1', 'vVAnlt2Q7', {withMultValues: true, annotation: annotation2});
     InstantAnnotation.createIABox('divid1', 'TQyCYm-r5', null);
     let annotation = {
         '@type': 'Event',
