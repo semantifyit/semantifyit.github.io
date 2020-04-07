@@ -1,14 +1,3 @@
-![semantify.it](https://semantify.it/images/logo.png)
-
-# Welcome to semantify.it's documentation page
-
-## Quicklinks
-
-* [semantify.it](https://semantify.it)
-* [Instant Annotations](https://semantifyit.github.io/ia)
-* [RML editor](https://semantifyit.github.io/rml)
-* [Twitter](https://twitter.com/semantifyit")
-
 # What is semantify.it
 Semantify.it is a Software-as-a-service (SAAS) toolbox for working with semantic annotation related tasks.
 
