@@ -78,7 +78,7 @@ specific type of annotation creation)
 ###### soon: against custom lists
 ##### soon: evaluation of Knowledge Graphs
 
-(##Vocabulary)
+## Vocabulary
 
 ### Creating
 #### manually (and upload/link)
