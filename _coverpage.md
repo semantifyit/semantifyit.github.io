@@ -9,9 +9,7 @@ Questions? Contact us.
 [GitHub](https://github.com/semantifyit/)
 [Contact](mailto:info[at]semantify[dot]it])
 [Twitter](https://twitter.com/semantifyit")
-[Get Started](#what-is-semantifyit)
-
-Quicklinks:
 [semantify.it](https://semantify.it)
 [Instant Annotations](https://semantifyit.github.io/ia)
 [RML editor](https://semantifyit.github.io/rml)
+[Get Started](#what-is-semantifyit)
