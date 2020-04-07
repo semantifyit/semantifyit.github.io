@@ -19,7 +19,7 @@ The platform's comprehensive tool collection can be distinguished in three major
 The annotation module originally was the core of semantify.it and is still the most well known feature of the tool box. Besides that, it is also the first thing that pops the user's eye when visiting the platform.
 
 ### Creation
-Annotation creation, also known as the creation of semantic content or semantic data, sometimes even called [LinkedData](https://en.wikipedia.org/wiki/Linked_data), is the process of adding semantic information to data. In other words the data is described with a vocabulary (an ontology). Originally semantify.it was soly based on schema.org. Meanwhile semantify.it also hosts custom vocabularies (see section [Vocabulary](##Vocabulary)).
+Annotation creation, also known as the creation of semantic content or semantic data, sometimes even called [LinkedData](https://en.wikipedia.org/wiki/Linked_data), is the process of adding semantic information to data. In other words the data is described with a vocabulary (an ontology). Originally semantify.it was soly based on schema.org. Meanwhile semantify.it also hosts custom vocabularies (see section [Vocabulary](#vocabulary)).
 
 The different tools to create annotations are described below.
 
