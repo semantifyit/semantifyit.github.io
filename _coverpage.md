@@ -15,5 +15,6 @@ Questions? Contact us.
 [Get Started](#what-is-semantifyit)
 
 <!-- background image -->
-
+<!--
 ![](https://semantify.it/wp-content/themes/semantify-wordpress-theme/assets/img/banner.jpg)
+-->
