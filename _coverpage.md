@@ -1,4 +1,4 @@
-![logo](https://semantify.it/images/logo.png)
+![logo](_media/semantify-logo.png)
 
 # Welcome to semantify.it's documentation page
 
@@ -16,5 +16,5 @@ Questions? Contact us.
 
 <!-- background image -->
 <!--
-![](https://semantify.it/wp-content/themes/semantify-wordpress-theme/assets/img/banner.jpg)
+![](_media/banner-ibk.jpg)
 -->

@@ -95,3 +95,25 @@ things that don’t fit the Annotation/DS/Vocab structure):
 #### duplication detection for KG
 #### verification for KG
 #### assessment for KG
+
+# Related Literature
+## semantify.it
+Kärle, E., Şimşek, U., & Fensel, D. (2017). semantify. it, a Platform for Creation, Publication and Distribution of Semantic Annotations. arXiv preprint arXiv:1706.10067.  
+Web: https://www.arxiv-vanity.com/papers/1706.10067/ ([download PDF](https://arxiv.org/pdf/1706.10067))
+
+
+## Domain Specifications
+Şimşek, U., Kärle, E., Holzknecht, O., & Fensel, D. (2017, June). Domain specific semantic validation of schema. org annotations. In International Andrei Ershov Memorial Conference on Perspectives of System Informatics (pp. 417-429). Springer, Cham.  
+Web: https://www.arxiv-vanity.com/papers/1706.06384 ([download PDF](https://arxiv.org/pdf/1706.06384))
+
+## RocketRML
+Simsek, U., Kärle, E., & Fensel, D. (2019). RocketRML-A NodeJS implementation of a use-case specific RML mapper. arXiv preprint arXiv:1903.04969.  
+Web: https://www.arxiv-vanity.com/papers/1903.04969/ ([download PDF](https://arxiv.org/pdf/1903.04969))
+
+## semantify.it actions
+Şimşek, U., Kärle, E., & Fensel, D. (2018). Machine readable web apis with schema. org action annotations. Procedia Computer Science, 137, 255-261.  
+Web: https://www.arxiv-vanity.com/papers/1805.05479/ ([download PDF](https://arxiv.org/pdf/1805.05479))
+
+A project by ![STIInnsbruck](_media/sti-logo.png)
+
+<p style="text-align: center;">Made with <img src="_media/heart.png" width="24"> in Tirol!</p>
