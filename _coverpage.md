@@ -13,3 +13,7 @@ Questions? Contact us.
 [Instant Annotations](https://semantifyit.github.io/ia)
 [RML editor](https://semantifyit.github.io/rml)
 [Get Started](#what-is-semantifyit)
+
+<!-- background image -->
+
+![](https://semantify.it/wp-content/themes/semantify-wordpress-theme/assets/img/banner.jpg)
