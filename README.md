@@ -1,5 +1,26 @@
 # What is semantify.it
-Semantify.it is a Software-as-a-service (SAAS) toolbox for working with semantic annotation related tasks.
+Semantify.it is a Software-as-a-service (SAAS) toolbox for working with semantic annotation related tasks.  
+In the beginning there were three questions driving the development of the platform:
+1. Which terms (schema.org classes, properties) to use?
+2. How to make a JSON-LD file?
+3. How to integrate JSON-LD into the website?
+
+From there emerged a web platform (software-as-a-service) to:
+* create (based on templates)
+* validae (rule based)
+* store (optional a the server)
+* maintain (editor)
+* integrate (trough plugins ([WordPress](https://wordpress.org/plugins/instant-annotation/), [Typo3](https://extensions.typo3.org/extension/semantify_it/)))
+
+schema.org annotations.
+
+Meanwhile, semantify.it has grown to a comprehensive toolbox for working width
+* Annotations
+* Domain Specifications
+* Vocabularies
+* Knowledge Graphs.
+
+Continue reading for details about those features.
 
 # Features of semantify.it
 The platform's comprehensive tool collection can be distinguished in three major categories: **annotations**, **Domain Specification** and **vocabularies**. The following sections will explain those categories and the tools in more detail.
