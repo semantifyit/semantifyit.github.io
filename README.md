@@ -39,6 +39,9 @@ The different tools to create annotations are described below.
 ##### upload (single/bulk)
 #### mapping
 ##### RocketRML
+RocketRML is a JavaScript RML-mapper implementation for the RDF mapping language (RML). For more information see [RocketRML's website](https://semantifyit.github.io/RocketRML/).
+![STIInnsbruck](_media/rocket-rml.jpg)
+
 #### semi-automatic
 ##### classification and NER end-points
 ##### WordPress plugin
