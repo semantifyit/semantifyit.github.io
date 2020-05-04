@@ -46,7 +46,7 @@ RocketRML is a JavaScript RML-mapper implementation for the RDF mapping language
 ##### classification and NER end-points
 ##### WordPress plugin
 #### semantify.it actions
-specific type of annotation creation)
+specific type of annotation creation, more: [WASA](https://semantifyit.github.io/actions-spec/#/)
 
 ### Hosting
 #### MongoDB
@@ -63,7 +63,10 @@ specific type of annotation creation)
 #### WordPress plugin
 #### Typo3 plugin
 #### semantify.it pages (mini websites, based solely on annotations)
+Example: [semantify.it pages for Tirolwerbung](https://pages.semantify.it/tirol)
+
 #### semantify.it actions
+More: [WASA](https://semantifyit.github.io/actions-spec/#/)
 
 ## Domain Specification
 
